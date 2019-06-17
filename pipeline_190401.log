@@ -1,0 +1,69 @@
+Begin training BASE model.
+Begin training sub-07_fm180074
+Begin training sub-17_sy180140
+Begin training sub-13_mp150285
+Begin training sub-02_ag170045
+Begin training sub-18_cr170417
+Begin training sub-14_mt170249
+Begin training sub-05_cj160239
+Begin training sub-04_cb180224
+Begin training sub-12_ml140071
+Begin training sub-08_ga130053
+Begin training sub-15_pn170438
+Begin training sub-03_bp160018
+Begin training sub-16_ps180177
+Begin training sub-19_cp140161
+Begin training sub-11_ma180162
+Begin training sub-09_gq180042
+01-04-19 18_06_18 Begin training BASE model.
+01-04-19 18_06_18 Skip training 0/20: sub-07_fm180074, using cached file.
+01-04-19 18_06_18 Skip training 1/20: sub-17_sy180140, using cached file.
+01-04-19 18_06_18 Skip training 2/20: sub-13_mp150285, using cached file.
+01-04-19 18_06_18 Skip training 3/20: sub-02_ag170045, using cached file.
+01-04-19 18_06_18 Skip training 4/20: sub-18_cr170417, using cached file.
+01-04-19 18_06_18 Skip training 5/20: sub-14_mt170249, using cached file.
+01-04-19 18_06_18 Skip training 6/20: sub-05_cj160239, using cached file.
+01-04-19 18_06_18 Skip training 7/20: sub-04_cb180224, using cached file.
+01-04-19 18_06_18 Skip training 8/20: sub-12_ml140071, using cached file.
+01-04-19 18_06_18 Skip training 9/20: sub-08_ga130053, using cached file.
+01-04-19 18_06_18 Skip training 10/20: sub-15_pn170438, using cached file.
+01-04-19 18_06_18 Skip training 11/20: sub-03_bp160018, using cached file.
+01-04-19 18_06_18 Skip training 12/20: sub-16_ps180177, using cached file.
+01-04-19 18_06_18 Skip training 13/20: sub-19_cp140161, using cached file.
+01-04-19 18_06_18 Skip training 14/20: sub-11_ma180162, using cached file.
+01-04-19 18_06_18 Begin training 15/20: sub-09_gq180042
+01-04-19 18_06_18 Traceback (most recent call last):
+01-04-19 18_06_18   File "./models/Micipsa Pipeline.py", line 122, in <module>
+01-04-19 18_06_18     send_mail_log('{} loop'.format(model), msg)
+01-04-19 18_06_18   File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/models/notifyer.py", line 51, in send_mail_log
+01-04-19 18_06_18     with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
+01-04-19 18_06_18 NameError: name 'context' is not defined
+01-04-19 18_08_18 Begin training BASE model.
+01-04-19 18_08_18 Skip training 0/20: sub-07_fm180074, using cached file.
+01-04-19 18_08_18 Skip training 1/20: sub-17_sy180140, using cached file.
+01-04-19 18_08_18 Skip training 2/20: sub-13_mp150285, using cached file.
+01-04-19 18_08_18 Skip training 3/20: sub-02_ag170045, using cached file.
+01-04-19 18_08_18 Skip training 4/20: sub-18_cr170417, using cached file.
+01-04-19 18_08_18 Skip training 5/20: sub-14_mt170249, using cached file.
+01-04-19 18_08_18 Skip training 6/20: sub-05_cj160239, using cached file.
+01-04-19 18_08_18 Skip training 7/20: sub-04_cb180224, using cached file.
+01-04-19 18_08_18 Skip training 8/20: sub-12_ml140071, using cached file.
+01-04-19 18_08_18 Skip training 9/20: sub-08_ga130053, using cached file.
+01-04-19 18_08_18 Skip training 10/20: sub-15_pn170438, using cached file.
+01-04-19 18_08_18 Skip training 11/20: sub-03_bp160018, using cached file.
+01-04-19 18_08_18 Skip training 12/20: sub-16_ps180177, using cached file.
+01-04-19 18_08_18 Skip training 13/20: sub-19_cp140161, using cached file.
+01-04-19 18_08_18 Skip training 14/20: sub-11_ma180162, using cached file.
+01-04-19 18_08_18 Begin training 15/20: sub-09_gq180042
+01-04-19 18_20_51 Begin training 16/20: sub-20_cs150204
+01-04-19 18_33_26 Begin training 17/20: sub-10_jm100109
+01-04-19 18_45_54 Begin training 18/20: sub-06_dg160099
+01-04-19 18_58_22 Begin training 19/20: sub-01_aa170308
+01-04-19 19_10_49 Begin training SIM model.
+01-04-19 19_10_49 Begin training 0/20: sub-07_fm180074
+01-04-19 21_30_42 Begin training 1/20: sub-17_sy180140
+01-04-19 23_50_27 Begin training 2/20: sub-13_mp150285
+02-04-19 02_10_01 Begin training 3/20: sub-02_ag170045
+02-04-19 04_29_46 Begin training 4/20: sub-18_cr170417
+02-04-19 06_49_32 Begin training 5/20: sub-14_mt170249
+02-04-19 09_09_17 Begin training 6/20: sub-05_cj160239

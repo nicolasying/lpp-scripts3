@@ -1,0 +1,5 @@
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate

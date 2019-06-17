@@ -3,7 +3,7 @@
 # 
 # Time-stamp: <2018-08-10 09:46:15 cp983411>
 
-#export ROOT_DIR=/neurospin/unicog/protocols/IRMf/LePetitPrince_Pallier_2018/MRI/
+export ROOT_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/
 echo "ROOT_DIR=$ROOT_DIR"
 
 export LINGUA=fr
@@ -19,7 +19,6 @@ echo "REGS=$REGS"
 export SEQUENTIAL=TRUE
 unset SEQUENTIAL  # comment to run in subjects in parallel (fast but memory intensive)
 
-export SUBJECTS_FMRI_DATA="${ROOT_DIR}/fmri-data/${LINGUA}"
+export SUBJECTS_FMRI_DATA="/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data"
 echo "SUBJECTS_FMRI_DATA=$SUBJECTS_FMRI_DATA"
-
 

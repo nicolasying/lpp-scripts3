@@ -1,0 +1,268 @@
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+  File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py", line 125
+    print('Main: computing for subject', subject, 'search space :', search_lb, search_ub))
+                                                                                         ^
+SyntaxError: invalid syntax
+make: *** [Makefile:52: first-level-ridge] Error 1
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Main: global masker retrieved from cache.
+Main: computing for subject sub-07_fm180074 search space : -3 5
+sub-07_fm180074 best alpha 0.001
+Main: computing for subject sub-17_sy180140 search space : -3 1.0
+sub-17_sy180140 best alpha 0.001
+Main: computing for subject sub-13_mp150285 search space : -3 -1.0
+sub-13_mp150285 best alpha 0.001
+Main: computing for subject sub-02_ag170045 search space : -3 -2.0
+sub-02_ag170045 best alpha 0.001
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Main: global masker retrieved from cache.
+Main: computing for subject sub-07_fm180074 search space : -10 3
+Main: using existing results sub-07_fm180074
+Main: computing for subject sub-17_sy180140 search space : -10 3
+Main: using existing results sub-17_sy180140
+Main: computing for subject sub-13_mp150285 search space : -10 3
+Main: using existing results sub-13_mp150285
+Main: computing for subject sub-02_ag170045 search space : -10 3
+Main: using existing results sub-02_ag170045
+Main: computing for subject sub-18_cr170417 search space : -10 3
+sub-18_cr170417 best alpha 1e-10
+Main: computing for subject sub-14_mt170249 search space : -10 -3.5
+sub-14_mt170249 best alpha 1e-10
+Main: computing for subject sub-05_cj160239 search space : -10 -6.75
+sub-05_cj160239 best alpha 1e-10
+Main: computing for subject sub-04_cb180224 search space : -10 -8.375
+sub-04_cb180224 best alpha 1e-10
+Main: computing for subject sub-12_ml140071 search space : -10 -9.1875
+sub-12_ml140071 best alpha 1e-10
+Main: computing for subject sub-08_ga130053 search space : -10 -9.59375
+sub-08_ga130053 best alpha 1e-10
+Main: computing for subject sub-15_pn170438 search space : -10 -9.796875
+sub-15_pn170438 best alpha 1e-10
+Main: computing for subject sub-03_bp160018 search space : -10 -9.8984375
+sub-03_bp160018 best alpha 1e-10
+Main: computing for subject sub-16_ps180177 search space : -10 -9.94921875
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Main: global masker retrieved from cache.
+Main: computing for subject sub-07_fm180074 search space : -10 3
+Main: using existing results sub-07_fm180074
+Main: computing for subject sub-17_sy180140 search space : -10 3
+Main: using existing results sub-17_sy180140
+Main: computing for subject sub-13_mp150285 search space : -10 3
+Main: using existing results sub-13_mp150285
+Main: computing for subject sub-02_ag170045 search space : -10 3
+Main: using existing results sub-02_ag170045
+Main: computing for subject sub-18_cr170417 search space : -10 3
+Main: using existing results sub-18_cr170417
+Main: computing for subject sub-14_mt170249 search space : -10 3
+Main: using existing results sub-14_mt170249
+Main: computing for subject sub-05_cj160239 search space : -10 3
+Main: using existing results sub-05_cj160239
+Main: computing for subject sub-04_cb180224 search space : -10 3
+Main: using existing results sub-04_cb180224
+Main: computing for subject sub-12_ml140071 search space : -10 3
+Main: using existing results sub-12_ml140071
+Main: computing for subject sub-08_ga130053 search space : -10 3
+Main: using existing results sub-08_ga130053
+Main: computing for subject sub-15_pn170438 search space : -10 3
+Main: using existing results sub-15_pn170438
+Main: computing for subject sub-03_bp160018 search space : -10 3
+Main: using existing results sub-03_bp160018
+Main: computing for subject sub-16_ps180177 search space : -10 3
+sub-16_ps180177 best alpha 0.0
+Main: computing for subject sub-19_cp140161 search space : -10 3
+sub-19_cp140161 best alpha 0.0
+Main: computing for subject sub-11_ma180162 search space : -10 3
+sub-11_ma180162 best alpha 0.0
+Main: computing for subject sub-09_gq180042 search space : -10 3
+sub-09_gq180042 best alpha 0.0
+Main: computing for subject sub-20_cs150204 search space : -10 3
+sub-20_cs150204 best alpha 0.0
+Main: computing for subject sub-10_jm100109 search space : -10 3
+sub-10_jm100109 best alpha 0.0
+Main: computing for subject sub-06_dg160099 search space : -10 3
+sub-06_dg160099 best alpha 0.0
+Main: computing for subject sub-01_aa170308 search space : -10 3
+sub-01_aa170308 best alpha 0.0
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='outputs/results-indiv-ridge/fr/rms-wrate-cwrate/run.log' mode='a+' encoding='UTF-8'>
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Main: global masker retrieved from cache.
+Main: computing for subject sub-08_ga130053 search space : -10 3
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Main: global masker retrieved from cache.
+Main: computing for subject sub-14_mt170249 search space : -10 3
+sub-14_mt170249 best alpha 0.0
+Main: computing for subject sub-11_ma180162 search space : -10 3
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py:35: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  from ...model_utils import compute_global_masker
+Traceback (most recent call last):
+  File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py", line 35, in <module>
+    from ...model_utils import compute_global_masker
+ValueError: attempted relative import beyond top-level package
+make: *** [Makefile:52: first-level-ridge] Error 1
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Main: global masker retrieved from cache.
+Main: computing for subject sub-05_cj160239 search space : -10 3
+Traceback (most recent call last):
+  File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py", line 122, in <module>
+    fmri_runs = [masker.transform(f) for f in fmri_filenames]
+  File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py", line 122, in <listcomp>
+    fmri_runs = [masker.transform(f) for f in fmri_filenames]
+AttributeError: 'NoneType' object has no attribute 'transform'
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='outputs/results-indiv-ridge/fr/rms-wrate-cwrate/run_newmask.log' mode='a+' encoding='UTF-8'>
+make: *** [Makefile:52: first-level-ridge] Error 1
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Traceback (most recent call last):
+  File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py", line 102, in <module>
+    masker = compute_global_masker(subj_dir, subjlist)
+  File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/models/model_utils.py", line 35, in compute_global_masker
+    global_mask = compute_multi_epi_mask(imgs, n_jobs=-1)
+  File "/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/masking.py", line 368, in compute_multi_epi_mask
+    mask = intersect_masks(masks, connected=connected, threshold=threshold)
+  File "/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/masking.py", line 146, in intersect_masks
+    raise ValueError("All masks should have the same affine")
+ValueError: All masks should have the same affine
+make: *** [Makefile:52: first-level-ridge] Error 1
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Main: computing for subject sub-08_ga130053 search space : -10 3
+sub-08_ga130053 best alpha 0.0
+Main: computing for subject sub-16_ps180177 search space : -10 3
+sub-16_ps180177 best alpha 0.0
+Main: computing for subject sub-18_cr170417 search space : -10 3
+sub-18_cr170417 best alpha 0.0
+Main: computing for subject sub-01_aa170308 search space : -10 3
+sub-01_aa170308 best alpha 0.0
+Main: computing for subject sub-11_ma180162 search space : -10 3
+sub-11_ma180162 best alpha 0.0
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:

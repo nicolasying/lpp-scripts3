@@ -1,0 +1,799 @@
+Running base for all subjects
+ROOT_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/
+LINGUA=fr
+MODEL_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate/
+REGS=rms wrate cwrate
+SUBJECTS_FMRI_DATA=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data
+model set to "rms-wrate-cwrate"
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Main: global masker retrieved from cache.
+Main: computing for subject sub-07_fm180074 search space : -10 3
+sub-07_fm180074 best alpha 0.0
+Main: computing for subject sub-17_sy180140 search space : -10 3
+sub-17_sy180140 best alpha 0.0
+Main: computing for subject sub-13_mp150285 search space : -10 3
+sub-13_mp150285 best alpha 0.0
+Main: computing for subject sub-02_ag170045 search space : -10 3
+sub-02_ag170045 best alpha 0.0
+Main: computing for subject sub-18_cr170417 search space : -10 3
+Main: using existing results sub-18_cr170417
+Main: computing for subject sub-14_mt170249 search space : -10 3
+sub-14_mt170249 best alpha 0.0
+Main: computing for subject sub-05_cj160239 search space : -10 3
+sub-05_cj160239 best alpha 0.0
+Main: computing for subject sub-04_cb180224 search space : -10 3
+sub-04_cb180224 best alpha 0.0
+Main: computing for subject sub-12_ml140071 search space : -10 3
+sub-12_ml140071 best alpha 0.0
+Main: computing for subject sub-08_ga130053 search space : -10 3
+Main: using existing results sub-08_ga130053
+Main: computing for subject sub-15_pn170438 search space : -10 3
+sub-15_pn170438 best alpha 0.0
+Main: computing for subject sub-03_bp160018 search space : -10 3
+sub-03_bp160018 best alpha 0.0
+Main: computing for subject sub-16_ps180177 search space : -10 3
+Main: using existing results sub-16_ps180177
+Main: computing for subject sub-19_cp140161 search space : -10 3
+sub-19_cp140161 best alpha 0.0
+Main: computing for subject sub-11_ma180162 search space : -10 3
+Main: using existing results sub-11_ma180162
+Main: computing for subject sub-09_gq180042 search space : -10 3
+sub-09_gq180042 best alpha 0.0
+Main: computing for subject sub-20_cs150204 search space : -10 3
+sub-20_cs150204 best alpha 0.0
+Main: computing for subject sub-10_jm100109 search space : -10 3
+sub-10_jm100109 best alpha 0.0
+Main: computing for subject sub-06_dg160099 search space : -10 3
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+sub-06_dg160099 best alpha 0.0
+Main: computing for subject sub-01_aa170308 search space : -10 3
+Main: using existing results sub-01_aa170308
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='outputs/results-indiv-ridge/fr/rms-wrate-cwrate/run_newmask.log' mode='a+' encoding='UTF-8'>
+Running SIM for all subjects
+ROOT_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/
+LINGUA=fr
+MODEL_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-sim103/
+REGS=rms wrate cwrate sim_dim634_voc56665_d1 sim_dim634_voc56665_d2 sim_dim634_voc56665_d3 sim_dim634_voc56665_d4 sim_dim634_voc56665_d5 sim_dim634_voc56665_d6 sim_dim634_voc56665_d7 sim_dim634_voc56665_d8 sim_dim634_voc56665_d9 sim_dim634_voc56665_d10 sim_dim634_voc56665_d11 sim_dim634_voc56665_d12 sim_dim634_voc56665_d13 sim_dim634_voc56665_d14 sim_dim634_voc56665_d15 sim_dim634_voc56665_d16 sim_dim634_voc56665_d17 sim_dim634_voc56665_d18 sim_dim634_voc56665_d19 sim_dim634_voc56665_d20 sim_dim634_voc56665_d21 sim_dim634_voc56665_d22 sim_dim634_voc56665_d23 sim_dim634_voc56665_d24 sim_dim634_voc56665_d25 sim_dim634_voc56665_d26 sim_dim634_voc56665_d27 sim_dim634_voc56665_d28 sim_dim634_voc56665_d29 sim_dim634_voc56665_d30 sim_dim634_voc56665_d31 sim_dim634_voc56665_d32 sim_dim634_voc56665_d33 sim_dim634_voc56665_d34 sim_dim634_voc56665_d35 sim_dim634_voc56665_d36 sim_dim634_voc56665_d37 sim_dim634_voc56665_d38 sim_dim634_voc56665_d39 sim_dim634_voc56665_d40 sim_dim634_voc56665_d41 sim_dim634_voc56665_d42 sim_dim634_voc56665_d43 sim_dim634_voc56665_d44 sim_dim634_voc56665_d45 sim_dim634_voc56665_d46 sim_dim634_voc56665_d47 sim_dim634_voc56665_d48 sim_dim634_voc56665_d49 sim_dim634_voc56665_d50 sim_dim634_voc56665_d51 sim_dim634_voc56665_d52 sim_dim634_voc56665_d53 sim_dim634_voc56665_d54 sim_dim634_voc56665_d55 sim_dim634_voc56665_d56 sim_dim634_voc56665_d57 sim_dim634_voc56665_d58 sim_dim634_voc56665_d59 sim_dim634_voc56665_d60 sim_dim634_voc56665_d61 sim_dim634_voc56665_d62 sim_dim634_voc56665_d63 sim_dim634_voc56665_d64 sim_dim634_voc56665_d65 sim_dim634_voc56665_d66 sim_dim634_voc56665_d67 sim_dim634_voc56665_d68 sim_dim634_voc56665_d69 sim_dim634_voc56665_d70 sim_dim634_voc56665_d71 sim_dim634_voc56665_d72 sim_dim634_voc56665_d73 sim_dim634_voc56665_d74 sim_dim634_voc56665_d75 sim_dim634_voc56665_d76 sim_dim634_voc56665_d77 sim_dim634_voc56665_d78 sim_dim634_voc56665_d79 sim_dim634_voc56665_d80 sim_dim634_voc56665_d81 sim_dim634_voc56665_d82 sim_dim634_voc56665_d83 sim_dim634_voc56665_d84 sim_dim634_voc56665_d85 sim_dim634_voc56665_d87 sim_dim634_voc56665_d88 sim_dim634_voc56665_d89 sim_dim634_voc56665_d90 sim_dim634_voc56665_d91 sim_dim634_voc56665_d92 sim_dim634_voc56665_d93 sim_dim634_voc56665_d94 sim_dim634_voc56665_d96 sim_dim634_voc56665_d97 sim_dim634_voc56665_d99 sim_dim634_voc56665_d100 sim_dim634_voc56665_d103 sim_dim634_voc56665_d117 sim_dim634_voc56665_d131
+SUBJECTS_FMRI_DATA=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data
+model set to "rms-wrate-cwrate-sim103"
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate-sim103; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-sim103//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate-sim103 \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate-sim103
+Main: computing global masker.
+Main: global masker retrieved from cache.
+Main: computing for subject sub-07_fm180074
+sub-07_fm180074 best alpha 2976.351441631319
+Main: computing for subject sub-17_sy180140
+sub-17_sy180140 best alpha 3792.69019073225
+Main: computing for subject sub-13_mp150285
+sub-13_mp150285 best alpha 3792.69019073225
+Main: computing for subject sub-02_ag170045
+sub-02_ag170045 best alpha 4281.332398719395
+Main: computing for subject sub-18_cr170417
+sub-18_cr170417 best alpha 3792.69019073225
+Main: computing for subject sub-14_mt170249
+sub-14_mt170249 best alpha 3792.69019073225
+Main: computing for subject sub-05_cj160239
+sub-05_cj160239 best alpha 4281.332398719395
+Main: computing for subject sub-04_cb180224
+sub-04_cb180224 best alpha 4281.332398719395
+Main: computing for subject sub-12_ml140071
+sub-12_ml140071 best alpha 3359.818286283781
+Main: computing for subject sub-08_ga130053
+sub-08_ga130053 best alpha 4832.930238571752
+Main: computing for subject sub-15_pn170438
+sub-15_pn170438 best alpha 4281.332398719395
+Main: computing for subject sub-03_bp160018
+sub-03_bp160018 best alpha 3792.69019073225
+Main: computing for subject sub-16_ps180177
+sub-16_ps180177 best alpha 2976.351441631319
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+Main: computing for subject sub-19_cp140161
+sub-19_cp140161 best alpha 2069.13808111479
+Main: computing for subject sub-11_ma180162
+sub-11_ma180162 best alpha 4281.332398719395
+Main: computing for subject sub-09_gq180042
+sub-09_gq180042 best alpha 3359.818286283781
+Main: computing for subject sub-20_cs150204
+sub-20_cs150204 best alpha 2976.351441631319
+Main: computing for subject sub-10_jm100109
+sub-10_jm100109 best alpha 3792.69019073225
+Main: computing for subject sub-06_dg160099
+sub-06_dg160099 best alpha 4281.332398719395
+Main: computing for subject sub-01_aa170308
+sub-01_aa170308 best alpha 4281.332398719395
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='outputs/results-indiv-ridge/fr/rms-wrate-cwrate-sim103/run_newmask.log' mode='a+' encoding='UTF-8'>
+Running ASN for all subjects
+ROOT_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/
+LINGUA=fr
+MODEL_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200/
+REGS=rms wrate cwrate asn_dim200_voc24519_d1 asn_dim200_voc24519_d2 asn_dim200_voc24519_d3 asn_dim200_voc24519_d4 asn_dim200_voc24519_d5 asn_dim200_voc24519_d6 asn_dim200_voc24519_d7 asn_dim200_voc24519_d8 asn_dim200_voc24519_d9 asn_dim200_voc24519_d10 asn_dim200_voc24519_d11 asn_dim200_voc24519_d12 asn_dim200_voc24519_d13 asn_dim200_voc24519_d14 asn_dim200_voc24519_d15 asn_dim200_voc24519_d16 asn_dim200_voc24519_d17 asn_dim200_voc24519_d18 asn_dim200_voc24519_d19 asn_dim200_voc24519_d20 asn_dim200_voc24519_d21 asn_dim200_voc24519_d22 asn_dim200_voc24519_d23 asn_dim200_voc24519_d24 asn_dim200_voc24519_d25 asn_dim200_voc24519_d26 asn_dim200_voc24519_d27 asn_dim200_voc24519_d28 asn_dim200_voc24519_d29 asn_dim200_voc24519_d30 asn_dim200_voc24519_d31 asn_dim200_voc24519_d32 asn_dim200_voc24519_d33 asn_dim200_voc24519_d34 asn_dim200_voc24519_d35 asn_dim200_voc24519_d36 asn_dim200_voc24519_d37 asn_dim200_voc24519_d38 asn_dim200_voc24519_d39 asn_dim200_voc24519_d40 asn_dim200_voc24519_d41 asn_dim200_voc24519_d42 asn_dim200_voc24519_d43 asn_dim200_voc24519_d44 asn_dim200_voc24519_d45 asn_dim200_voc24519_d46 asn_dim200_voc24519_d47 asn_dim200_voc24519_d48 asn_dim200_voc24519_d49 asn_dim200_voc24519_d50 asn_dim200_voc24519_d51 asn_dim200_voc24519_d52 asn_dim200_voc24519_d53 asn_dim200_voc24519_d54 asn_dim200_voc24519_d55 asn_dim200_voc24519_d56 asn_dim200_voc24519_d57 asn_dim200_voc24519_d58 asn_dim200_voc24519_d59 asn_dim200_voc24519_d60 asn_dim200_voc24519_d61 asn_dim200_voc24519_d62 asn_dim200_voc24519_d63 asn_dim200_voc24519_d64 asn_dim200_voc24519_d65 asn_dim200_voc24519_d66 asn_dim200_voc24519_d67 asn_dim200_voc24519_d68 asn_dim200_voc24519_d69 asn_dim200_voc24519_d70 asn_dim200_voc24519_d71 asn_dim200_voc24519_d72 asn_dim200_voc24519_d73 asn_dim200_voc24519_d74 asn_dim200_voc24519_d75 asn_dim200_voc24519_d76 asn_dim200_voc24519_d77 asn_dim200_voc24519_d78 asn_dim200_voc24519_d79 asn_dim200_voc24519_d80 asn_dim200_voc24519_d81 asn_dim200_voc24519_d82 asn_dim200_voc24519_d83 asn_dim200_voc24519_d84 asn_dim200_voc24519_d85 asn_dim200_voc24519_d86 asn_dim200_voc24519_d87 asn_dim200_voc24519_d88 asn_dim200_voc24519_d89 asn_dim200_voc24519_d90 asn_dim200_voc24519_d91 asn_dim200_voc24519_d92 asn_dim200_voc24519_d93 asn_dim200_voc24519_d94 asn_dim200_voc24519_d95 asn_dim200_voc24519_d96 asn_dim200_voc24519_d97 asn_dim200_voc24519_d98 asn_dim200_voc24519_d99 asn_dim200_voc24519_d100 asn_dim200_voc24519_d101 asn_dim200_voc24519_d102 asn_dim200_voc24519_d103 asn_dim200_voc24519_d104 asn_dim200_voc24519_d105 asn_dim200_voc24519_d106 asn_dim200_voc24519_d107 asn_dim200_voc24519_d108 asn_dim200_voc24519_d109 asn_dim200_voc24519_d110 asn_dim200_voc24519_d111 asn_dim200_voc24519_d112 asn_dim200_voc24519_d113 asn_dim200_voc24519_d114 asn_dim200_voc24519_d115 asn_dim200_voc24519_d116 asn_dim200_voc24519_d117 asn_dim200_voc24519_d118 asn_dim200_voc24519_d119 asn_dim200_voc24519_d120 asn_dim200_voc24519_d121 asn_dim200_voc24519_d122 asn_dim200_voc24519_d123 asn_dim200_voc24519_d124 asn_dim200_voc24519_d125 asn_dim200_voc24519_d126 asn_dim200_voc24519_d127 asn_dim200_voc24519_d128 asn_dim200_voc24519_d129 asn_dim200_voc24519_d130 asn_dim200_voc24519_d131 asn_dim200_voc24519_d132 asn_dim200_voc24519_d133 asn_dim200_voc24519_d134 asn_dim200_voc24519_d135 asn_dim200_voc24519_d136 asn_dim200_voc24519_d137 asn_dim200_voc24519_d138 asn_dim200_voc24519_d139 asn_dim200_voc24519_d140 asn_dim200_voc24519_d141 asn_dim200_voc24519_d142 asn_dim200_voc24519_d143 asn_dim200_voc24519_d144 asn_dim200_voc24519_d145 asn_dim200_voc24519_d146 asn_dim200_voc24519_d147 asn_dim200_voc24519_d148 asn_dim200_voc24519_d149 asn_dim200_voc24519_d150 asn_dim200_voc24519_d151 asn_dim200_voc24519_d152 asn_dim200_voc24519_d153 asn_dim200_voc24519_d154 asn_dim200_voc24519_d155 asn_dim200_voc24519_d156 asn_dim200_voc24519_d157 asn_dim200_voc24519_d158 asn_dim200_voc24519_d159 asn_dim200_voc24519_d160 asn_dim200_voc24519_d161 asn_dim200_voc24519_d162 asn_dim200_voc24519_d163 asn_dim200_voc24519_d164 asn_dim200_voc24519_d165 asn_dim200_voc24519_d166 asn_dim200_voc24519_d167 asn_dim200_voc24519_d168 asn_dim200_voc24519_d169 asn_dim200_voc24519_d170 asn_dim200_voc24519_d171 asn_dim200_voc24519_d172 asn_dim200_voc24519_d173 asn_dim200_voc24519_d174 asn_dim200_voc24519_d175 asn_dim200_voc24519_d176 asn_dim200_voc24519_d177 asn_dim200_voc24519_d178 asn_dim200_voc24519_d179 asn_dim200_voc24519_d180 asn_dim200_voc24519_d181 asn_dim200_voc24519_d182 asn_dim200_voc24519_d183 asn_dim200_voc24519_d184 asn_dim200_voc24519_d185 asn_dim200_voc24519_d186 asn_dim200_voc24519_d187 asn_dim200_voc24519_d188 asn_dim200_voc24519_d189 asn_dim200_voc24519_d190 asn_dim200_voc24519_d191 asn_dim200_voc24519_d192 asn_dim200_voc24519_d193 asn_dim200_voc24519_d194 asn_dim200_voc24519_d195 asn_dim200_voc24519_d196 asn_dim200_voc24519_d197 asn_dim200_voc24519_d198 asn_dim200_voc24519_d199 asn_dim200_voc24519_d200
+SUBJECTS_FMRI_DATA=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data
+model set to "rms-wrate-cwrate-asn200"
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate-asn200; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate-asn200 \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate-asn200
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200//r2maps_Ridge_nestedcrossval.py", line 96, in <module>
+    opts, args = getopt.getopt(sys.argv[1:],
+NameError: name 'getopt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200//r2maps_Ridge_nestedcrossval.py", line 101, in <module>
+    except getopt.GetoptError as err:
+NameError: name 'getopt' is not defined
+make: *** [Makefile:52: first-level-ridge] Error 1
+22-03-19 17_44_34 Running ASN for all subjects
+22-03-19 17_44_34 ROOT_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/
+22-03-19 17_44_34 LINGUA=fr
+22-03-19 17_44_34 MODEL_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200/
+22-03-19 17_44_34 REGS=rms wrate cwrate asn_dim200_voc24519_d1 asn_dim200_voc24519_d2 asn_dim200_voc24519_d3 asn_dim200_voc24519_d4 asn_dim200_voc24519_d5 asn_dim200_voc24519_d6 asn_dim200_voc24519_d7 asn_dim200_voc24519_d8 asn_dim200_voc24519_d9 asn_dim200_voc24519_d10 asn_dim200_voc24519_d11 asn_dim200_voc24519_d12 asn_dim200_voc24519_d13 asn_dim200_voc24519_d14 asn_dim200_voc24519_d15 asn_dim200_voc24519_d16 asn_dim200_voc24519_d17 asn_dim200_voc24519_d18 asn_dim200_voc24519_d19 asn_dim200_voc24519_d20 asn_dim200_voc24519_d21 asn_dim200_voc24519_d22 asn_dim200_voc24519_d23 asn_dim200_voc24519_d24 asn_dim200_voc24519_d25 asn_dim200_voc24519_d26 asn_dim200_voc24519_d27 asn_dim200_voc24519_d28 asn_dim200_voc24519_d29 asn_dim200_voc24519_d30 asn_dim200_voc24519_d31 asn_dim200_voc24519_d32 asn_dim200_voc24519_d33 asn_dim200_voc24519_d34 asn_dim200_voc24519_d35 asn_dim200_voc24519_d36 asn_dim200_voc24519_d37 asn_dim200_voc24519_d38 asn_dim200_voc24519_d39 asn_dim200_voc24519_d40 asn_dim200_voc24519_d41 asn_dim200_voc24519_d42 asn_dim200_voc24519_d43 asn_dim200_voc24519_d44 asn_dim200_voc24519_d45 asn_dim200_voc24519_d46 asn_dim200_voc24519_d47 asn_dim200_voc24519_d48 asn_dim200_voc24519_d49 asn_dim200_voc24519_d50 asn_dim200_voc24519_d51 asn_dim200_voc24519_d52 asn_dim200_voc24519_d53 asn_dim200_voc24519_d54 asn_dim200_voc24519_d55 asn_dim200_voc24519_d56 asn_dim200_voc24519_d57 asn_dim200_voc24519_d58 asn_dim200_voc24519_d59 asn_dim200_voc24519_d60 asn_dim200_voc24519_d61 asn_dim200_voc24519_d62 asn_dim200_voc24519_d63 asn_dim200_voc24519_d64 asn_dim200_voc24519_d65 asn_dim200_voc24519_d66 asn_dim200_voc24519_d67 asn_dim200_voc24519_d68 asn_dim200_voc24519_d69 asn_dim200_voc24519_d70 asn_dim200_voc24519_d71 asn_dim200_voc24519_d72 asn_dim200_voc24519_d73 asn_dim200_voc24519_d74 asn_dim200_voc24519_d75 asn_dim200_voc24519_d76 asn_dim200_voc24519_d77 asn_dim200_voc24519_d78 asn_dim200_voc24519_d79 asn_dim200_voc24519_d80 asn_dim200_voc24519_d81 asn_dim200_voc24519_d82 asn_dim200_voc24519_d83 asn_dim200_voc24519_d84 asn_dim200_voc24519_d85 asn_dim200_voc24519_d86 asn_dim200_voc24519_d87 asn_dim200_voc24519_d88 asn_dim200_voc24519_d89 asn_dim200_voc24519_d90 asn_dim200_voc24519_d91 asn_dim200_voc24519_d92 asn_dim200_voc24519_d93 asn_dim200_voc24519_d94 asn_dim200_voc24519_d95 asn_dim200_voc24519_d96 asn_dim200_voc24519_d97 asn_dim200_voc24519_d98 asn_dim200_voc24519_d99 asn_dim200_voc24519_d100 asn_dim200_voc24519_d101 asn_dim200_voc24519_d102 asn_dim200_voc24519_d103 asn_dim200_voc24519_d104 asn_dim200_voc24519_d105 asn_dim200_voc24519_d106 asn_dim200_voc24519_d107 asn_dim200_voc24519_d108 asn_dim200_voc24519_d109 asn_dim200_voc24519_d110 asn_dim200_voc24519_d111 asn_dim200_voc24519_d112 asn_dim200_voc24519_d113 asn_dim200_voc24519_d114 asn_dim200_voc24519_d115 asn_dim200_voc24519_d116 asn_dim200_voc24519_d117 asn_dim200_voc24519_d118 asn_dim200_voc24519_d119 asn_dim200_voc24519_d120 asn_dim200_voc24519_d121 asn_dim200_voc24519_d122 asn_dim200_voc24519_d123 asn_dim200_voc24519_d124 asn_dim200_voc24519_d125 asn_dim200_voc24519_d126 asn_dim200_voc24519_d127 asn_dim200_voc24519_d128 asn_dim200_voc24519_d129 asn_dim200_voc24519_d130 asn_dim200_voc24519_d131 asn_dim200_voc24519_d132 asn_dim200_voc24519_d133 asn_dim200_voc24519_d134 asn_dim200_voc24519_d135 asn_dim200_voc24519_d136 asn_dim200_voc24519_d137 asn_dim200_voc24519_d138 asn_dim200_voc24519_d139 asn_dim200_voc24519_d140 asn_dim200_voc24519_d141 asn_dim200_voc24519_d142 asn_dim200_voc24519_d143 asn_dim200_voc24519_d144 asn_dim200_voc24519_d145 asn_dim200_voc24519_d146 asn_dim200_voc24519_d147 asn_dim200_voc24519_d148 asn_dim200_voc24519_d149 asn_dim200_voc24519_d150 asn_dim200_voc24519_d151 asn_dim200_voc24519_d152 asn_dim200_voc24519_d153 asn_dim200_voc24519_d154 asn_dim200_voc24519_d155 asn_dim200_voc24519_d156 asn_dim200_voc24519_d157 asn_dim200_voc24519_d158 asn_dim200_voc24519_d159 asn_dim200_voc24519_d160 asn_dim200_voc24519_d161 asn_dim200_voc24519_d162 asn_dim200_voc24519_d163 asn_dim200_voc24519_d164 asn_dim200_voc24519_d165 asn_dim200_voc24519_d166 asn_dim200_voc24519_d167 asn_dim200_voc24519_d168 asn_dim200_voc24519_d169 asn_dim200_voc24519_d170 asn_dim200_voc24519_d171 asn_dim200_voc24519_d172 asn_dim200_voc24519_d173 asn_dim200_voc24519_d174 asn_dim200_voc24519_d175 asn_dim200_voc24519_d176 asn_dim200_voc24519_d177 asn_dim200_voc24519_d178 asn_dim200_voc24519_d179 asn_dim200_voc24519_d180 asn_dim200_voc24519_d181 asn_dim200_voc24519_d182 asn_dim200_voc24519_d183 asn_dim200_voc24519_d184 asn_dim200_voc24519_d185 asn_dim200_voc24519_d186 asn_dim200_voc24519_d187 asn_dim200_voc24519_d188 asn_dim200_voc24519_d189 asn_dim200_voc24519_d190 asn_dim200_voc24519_d191 asn_dim200_voc24519_d192 asn_dim200_voc24519_d193 asn_dim200_voc24519_d194 asn_dim200_voc24519_d195 asn_dim200_voc24519_d196 asn_dim200_voc24519_d197 asn_dim200_voc24519_d198 asn_dim200_voc24519_d199 asn_dim200_voc24519_d200
+22-03-19 17_44_34 SUBJECTS_FMRI_DATA=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data
+22-03-19 17_44_34 model set to "rms-wrate-cwrate-asn200"
+22-03-19 17_44_34 mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate-asn200; \
+22-03-19 17_44_34 python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200//r2maps_Ridge_nestedcrossval.py \
+22-03-19 17_44_34 	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+22-03-19 17_44_34 	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate-asn200 \
+22-03-19 17_44_34 	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate-asn200
+22-03-19 17_44_51 Run 1. Correlation matrix:
+22-03-19 17_44_51 [[ 1. -0.  0. ... -0. -0.  0.]
+22-03-19 17_44_51  [-0.  1. -0. ...  0.  0. -0.]
+22-03-19 17_44_51  [ 0. -0.  1. ...  0. -0. -0.]
+22-03-19 17_44_51  ...
+22-03-19 17_44_51  [-0.  0.  0. ...  1.  0.  0.]
+22-03-19 17_44_51  [-0.  0. -0. ...  0.  1.  0.]
+22-03-19 17_44_51  [ 0. -0. -0. ...  0.  0.  1.]]
+22-03-19 17_44_51 Run 2. Correlation matrix:
+22-03-19 17_44_51 [[ 1.  0. -0. ... -0. -0. -0.]
+22-03-19 17_44_51  [ 0.  1.  0. ...  0. -0. -0.]
+22-03-19 17_44_51  [-0.  0.  1. ...  0. -0. -0.]
+22-03-19 17_44_51  ...
+22-03-19 17_44_51  [-0.  0.  0. ...  1. -0. -0.]
+22-03-19 17_44_51  [-0. -0. -0. ... -0.  1.  0.]
+22-03-19 17_44_51  [-0. -0. -0. ... -0.  0.  1.]]
+22-03-19 17_44_51 Run 3. Correlation matrix:
+22-03-19 17_44_51 [[ 1. -0. -0. ...  0.  0. -0.]
+22-03-19 17_44_51  [-0.  1. -0. ...  0.  0. -0.]
+22-03-19 17_44_51  [-0. -0.  1. ... -0. -0. -0.]
+22-03-19 17_44_51  ...
+22-03-19 17_44_51  [ 0.  0. -0. ...  1.  0. -0.]
+22-03-19 17_44_51  [ 0.  0. -0. ...  0.  1. -0.]
+22-03-19 17_44_51  [-0. -0. -0. ... -0. -0.  1.]]
+22-03-19 17_44_51 Run 4. Correlation matrix:
+22-03-19 17_44_51 [[ 1.  0.  0. ... -0.  0. -0.]
+22-03-19 17_44_51  [ 0.  1. -0. ...  0. -0. -0.]
+22-03-19 17_44_51  [ 0. -0.  1. ...  0.  0.  0.]
+22-03-19 17_44_51  ...
+22-03-19 17_44_51  [-0.  0.  0. ...  1.  0.  0.]
+22-03-19 17_44_51  [ 0. -0.  0. ...  0.  1. -0.]
+22-03-19 17_44_51  [-0. -0.  0. ...  0. -0.  1.]]
+22-03-19 17_44_51 Run 5. Correlation matrix:
+22-03-19 17_44_51 [[ 1. -0. -0. ... -0. -0. -0.]
+22-03-19 17_44_51  [-0.  1. -0. ... -0.  0. -0.]
+22-03-19 17_44_51  [-0. -0.  1. ... -0. -0. -0.]
+22-03-19 17_44_51  ...
+22-03-19 17_44_51  [-0. -0. -0. ...  1.  0. -0.]
+22-03-19 17_44_51  [-0.  0. -0. ...  0.  1. -0.]
+22-03-19 17_44_51  [-0. -0. -0. ... -0. -0.  1.]]
+22-03-19 17_44_51 Run 6. Correlation matrix:
+22-03-19 17_44_51 [[ 1.  0. -0. ...  0. -0.  0.]
+22-03-19 17_44_51  [ 0.  1.  0. ... -0.  0.  0.]
+22-03-19 17_44_51  [-0.  0.  1. ...  0. -0. -0.]
+22-03-19 17_44_51  ...
+22-03-19 17_44_51  [ 0. -0.  0. ...  1.  0.  0.]
+22-03-19 17_44_51  [-0.  0. -0. ...  0.  1.  0.]
+22-03-19 17_44_51  [ 0.  0. -0. ...  0.  0.  1.]]
+22-03-19 17_44_51 Run 7. Correlation matrix:
+22-03-19 17_44_51 [[ 1. -0. -0. ...  0. -0. -0.]
+22-03-19 17_44_51  [-0.  1.  0. ...  0.  0.  0.]
+22-03-19 17_44_51  [-0.  0.  1. ... -0. -0.  0.]
+22-03-19 17_44_51  ...
+22-03-19 17_44_51  [ 0.  0. -0. ...  1.  0.  0.]
+22-03-19 17_44_51  [-0.  0. -0. ...  0.  1.  0.]
+22-03-19 17_44_51  [-0.  0.  0. ...  0.  0.  1.]]
+22-03-19 17_44_51 Run 8. Correlation matrix:
+22-03-19 17_44_51 [[ 1.  0.  0. ... -0. -0. -0.]
+22-03-19 17_44_51  [ 0.  1.  0. ...  0.  0. -0.]
+22-03-19 17_44_51  [ 0.  0.  1. ...  0.  0. -0.]
+22-03-19 17_44_51  ...
+22-03-19 17_44_51  [-0.  0.  0. ...  1.  0.  0.]
+22-03-19 17_44_51  [-0.  0.  0. ...  0.  1.  0.]
+22-03-19 17_44_51  [-0. -0. -0. ...  0.  0.  1.]]
+22-03-19 17_44_51 Run 9. Correlation matrix:
+22-03-19 17_44_51 [[ 1.  0.  0. ... -0. -0.  0.]
+22-03-19 17_44_51  [ 0.  1.  0. ... -0. -0.  0.]
+22-03-19 17_44_51  [ 0.  0.  1. ...  0. -0. -0.]
+22-03-19 17_44_51  ...
+22-03-19 17_44_51  [-0. -0.  0. ...  1. -0.  0.]
+22-03-19 17_44_51  [-0. -0. -0. ... -0.  1. -0.]
+22-03-19 17_44_51  [ 0.  0. -0. ...  0. -0.  1.]]
+22-03-19 17_47_37 Running ASN for all subjects
+22-03-19 17_47_37 ROOT_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/
+22-03-19 17_47_37 LINGUA=fr
+22-03-19 17_47_37 MODEL_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200/
+22-03-19 17_47_37 REGS=rms wrate cwrate asn_dim200_voc24519_d1 asn_dim200_voc24519_d2 asn_dim200_voc24519_d3 asn_dim200_voc24519_d4 asn_dim200_voc24519_d5 asn_dim200_voc24519_d6 asn_dim200_voc24519_d7 asn_dim200_voc24519_d8 asn_dim200_voc24519_d9 asn_dim200_voc24519_d10 asn_dim200_voc24519_d11 asn_dim200_voc24519_d12 asn_dim200_voc24519_d13 asn_dim200_voc24519_d14 asn_dim200_voc24519_d15 asn_dim200_voc24519_d16 asn_dim200_voc24519_d17 asn_dim200_voc24519_d18 asn_dim200_voc24519_d19 asn_dim200_voc24519_d20 asn_dim200_voc24519_d21 asn_dim200_voc24519_d22 asn_dim200_voc24519_d23 asn_dim200_voc24519_d24 asn_dim200_voc24519_d25 asn_dim200_voc24519_d26 asn_dim200_voc24519_d27 asn_dim200_voc24519_d28 asn_dim200_voc24519_d29 asn_dim200_voc24519_d30 asn_dim200_voc24519_d31 asn_dim200_voc24519_d32 asn_dim200_voc24519_d33 asn_dim200_voc24519_d34 asn_dim200_voc24519_d35 asn_dim200_voc24519_d36 asn_dim200_voc24519_d37 asn_dim200_voc24519_d38 asn_dim200_voc24519_d39 asn_dim200_voc24519_d40 asn_dim200_voc24519_d41 asn_dim200_voc24519_d42 asn_dim200_voc24519_d43 asn_dim200_voc24519_d44 asn_dim200_voc24519_d45 asn_dim200_voc24519_d46 asn_dim200_voc24519_d47 asn_dim200_voc24519_d48 asn_dim200_voc24519_d49 asn_dim200_voc24519_d50 asn_dim200_voc24519_d51 asn_dim200_voc24519_d52 asn_dim200_voc24519_d53 asn_dim200_voc24519_d54 asn_dim200_voc24519_d55 asn_dim200_voc24519_d56 asn_dim200_voc24519_d57 asn_dim200_voc24519_d58 asn_dim200_voc24519_d59 asn_dim200_voc24519_d60 asn_dim200_voc24519_d61 asn_dim200_voc24519_d62 asn_dim200_voc24519_d63 asn_dim200_voc24519_d64 asn_dim200_voc24519_d65 asn_dim200_voc24519_d66 asn_dim200_voc24519_d67 asn_dim200_voc24519_d68 asn_dim200_voc24519_d69 asn_dim200_voc24519_d70 asn_dim200_voc24519_d71 asn_dim200_voc24519_d72 asn_dim200_voc24519_d73 asn_dim200_voc24519_d74 asn_dim200_voc24519_d75 asn_dim200_voc24519_d76 asn_dim200_voc24519_d77 asn_dim200_voc24519_d78 asn_dim200_voc24519_d79 asn_dim200_voc24519_d80 asn_dim200_voc24519_d81 asn_dim200_voc24519_d82 asn_dim200_voc24519_d83 asn_dim200_voc24519_d84 asn_dim200_voc24519_d85 asn_dim200_voc24519_d86 asn_dim200_voc24519_d87 asn_dim200_voc24519_d88 asn_dim200_voc24519_d89 asn_dim200_voc24519_d90 asn_dim200_voc24519_d91 asn_dim200_voc24519_d92 asn_dim200_voc24519_d93 asn_dim200_voc24519_d94 asn_dim200_voc24519_d95 asn_dim200_voc24519_d96 asn_dim200_voc24519_d97 asn_dim200_voc24519_d98 asn_dim200_voc24519_d99 asn_dim200_voc24519_d100 asn_dim200_voc24519_d101 asn_dim200_voc24519_d102 asn_dim200_voc24519_d103 asn_dim200_voc24519_d104 asn_dim200_voc24519_d105 asn_dim200_voc24519_d106 asn_dim200_voc24519_d107 asn_dim200_voc24519_d108 asn_dim200_voc24519_d109 asn_dim200_voc24519_d110 asn_dim200_voc24519_d111 asn_dim200_voc24519_d112 asn_dim200_voc24519_d113 asn_dim200_voc24519_d114 asn_dim200_voc24519_d115 asn_dim200_voc24519_d116 asn_dim200_voc24519_d117 asn_dim200_voc24519_d118 asn_dim200_voc24519_d119 asn_dim200_voc24519_d120 asn_dim200_voc24519_d121 asn_dim200_voc24519_d122 asn_dim200_voc24519_d123 asn_dim200_voc24519_d124 asn_dim200_voc24519_d125 asn_dim200_voc24519_d126 asn_dim200_voc24519_d127 asn_dim200_voc24519_d128 asn_dim200_voc24519_d129 asn_dim200_voc24519_d130 asn_dim200_voc24519_d131 asn_dim200_voc24519_d132 asn_dim200_voc24519_d133 asn_dim200_voc24519_d134 asn_dim200_voc24519_d135 asn_dim200_voc24519_d136 asn_dim200_voc24519_d137 asn_dim200_voc24519_d138 asn_dim200_voc24519_d139 asn_dim200_voc24519_d140 asn_dim200_voc24519_d141 asn_dim200_voc24519_d142 asn_dim200_voc24519_d143 asn_dim200_voc24519_d144 asn_dim200_voc24519_d145 asn_dim200_voc24519_d146 asn_dim200_voc24519_d147 asn_dim200_voc24519_d148 asn_dim200_voc24519_d149 asn_dim200_voc24519_d150 asn_dim200_voc24519_d151 asn_dim200_voc24519_d152 asn_dim200_voc24519_d153 asn_dim200_voc24519_d154 asn_dim200_voc24519_d155 asn_dim200_voc24519_d156 asn_dim200_voc24519_d157 asn_dim200_voc24519_d158 asn_dim200_voc24519_d159 asn_dim200_voc24519_d160 asn_dim200_voc24519_d161 asn_dim200_voc24519_d162 asn_dim200_voc24519_d163 asn_dim200_voc24519_d164 asn_dim200_voc24519_d165 asn_dim200_voc24519_d166 asn_dim200_voc24519_d167 asn_dim200_voc24519_d168 asn_dim200_voc24519_d169 asn_dim200_voc24519_d170 asn_dim200_voc24519_d171 asn_dim200_voc24519_d172 asn_dim200_voc24519_d173 asn_dim200_voc24519_d174 asn_dim200_voc24519_d175 asn_dim200_voc24519_d176 asn_dim200_voc24519_d177 asn_dim200_voc24519_d178 asn_dim200_voc24519_d179 asn_dim200_voc24519_d180 asn_dim200_voc24519_d181 asn_dim200_voc24519_d182 asn_dim200_voc24519_d183 asn_dim200_voc24519_d184 asn_dim200_voc24519_d185 asn_dim200_voc24519_d186 asn_dim200_voc24519_d187 asn_dim200_voc24519_d188 asn_dim200_voc24519_d189 asn_dim200_voc24519_d190 asn_dim200_voc24519_d191 asn_dim200_voc24519_d192 asn_dim200_voc24519_d193 asn_dim200_voc24519_d194 asn_dim200_voc24519_d195 asn_dim200_voc24519_d196 asn_dim200_voc24519_d197 asn_dim200_voc24519_d198 asn_dim200_voc24519_d199 asn_dim200_voc24519_d200
+22-03-19 17_47_37 SUBJECTS_FMRI_DATA=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data
+22-03-19 17_47_37 model set to "rms-wrate-cwrate-asn200"
+22-03-19 17_47_37 mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate-asn200; \
+22-03-19 17_47_37 python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200//r2maps_Ridge_nestedcrossval.py \
+22-03-19 17_47_37 	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+22-03-19 17_47_37 	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate-asn200 \
+22-03-19 17_47_37 	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate-asn200
+22-03-19 17_47_51 Run 1. Correlation matrix:
+22-03-19 17_47_51 [[ 1. -0.  0. ... -0. -0.  0.]
+22-03-19 17_47_51  [-0.  1. -0. ...  0.  0. -0.]
+22-03-19 17_47_51  [ 0. -0.  1. ...  0. -0. -0.]
+22-03-19 17_47_51  ...
+22-03-19 17_47_51  [-0.  0.  0. ...  1.  0.  0.]
+22-03-19 17_47_51  [-0.  0. -0. ...  0.  1.  0.]
+22-03-19 17_47_51  [ 0. -0. -0. ...  0.  0.  1.]]
+22-03-19 17_47_51 Run 2. Correlation matrix:
+22-03-19 17_47_51 [[ 1.  0. -0. ... -0. -0. -0.]
+22-03-19 17_47_51  [ 0.  1.  0. ...  0. -0. -0.]
+22-03-19 17_47_51  [-0.  0.  1. ...  0. -0. -0.]
+22-03-19 17_47_51  ...
+22-03-19 17_47_51  [-0.  0.  0. ...  1. -0. -0.]
+22-03-19 17_47_51  [-0. -0. -0. ... -0.  1.  0.]
+22-03-19 17_47_51  [-0. -0. -0. ... -0.  0.  1.]]
+22-03-19 17_47_51 Run 3. Correlation matrix:
+22-03-19 17_47_51 [[ 1. -0. -0. ...  0.  0. -0.]
+22-03-19 17_47_51  [-0.  1. -0. ...  0.  0. -0.]
+22-03-19 17_47_51  [-0. -0.  1. ... -0. -0. -0.]
+22-03-19 17_47_51  ...
+22-03-19 17_47_51  [ 0.  0. -0. ...  1.  0. -0.]
+22-03-19 17_47_51  [ 0.  0. -0. ...  0.  1. -0.]
+22-03-19 17_47_51  [-0. -0. -0. ... -0. -0.  1.]]
+22-03-19 17_47_51 Run 4. Correlation matrix:
+22-03-19 17_47_51 [[ 1.  0.  0. ... -0.  0. -0.]
+22-03-19 17_47_51  [ 0.  1. -0. ...  0. -0. -0.]
+22-03-19 17_47_51  [ 0. -0.  1. ...  0.  0.  0.]
+22-03-19 17_47_51  ...
+22-03-19 17_47_51  [-0.  0.  0. ...  1.  0.  0.]
+22-03-19 17_47_51  [ 0. -0.  0. ...  0.  1. -0.]
+22-03-19 17_47_51  [-0. -0.  0. ...  0. -0.  1.]]
+22-03-19 17_47_51 Run 5. Correlation matrix:
+22-03-19 17_47_51 [[ 1. -0. -0. ... -0. -0. -0.]
+22-03-19 17_47_51  [-0.  1. -0. ... -0.  0. -0.]
+22-03-19 17_47_51  [-0. -0.  1. ... -0. -0. -0.]
+22-03-19 17_47_51  ...
+22-03-19 17_47_51  [-0. -0. -0. ...  1.  0. -0.]
+22-03-19 17_47_51  [-0.  0. -0. ...  0.  1. -0.]
+22-03-19 17_47_51  [-0. -0. -0. ... -0. -0.  1.]]
+22-03-19 17_47_51 Run 6. Correlation matrix:
+22-03-19 17_47_51 [[ 1.  0. -0. ...  0. -0.  0.]
+22-03-19 17_47_51  [ 0.  1.  0. ... -0.  0.  0.]
+22-03-19 17_47_51  [-0.  0.  1. ...  0. -0. -0.]
+22-03-19 17_47_51  ...
+22-03-19 17_47_51  [ 0. -0.  0. ...  1.  0.  0.]
+22-03-19 17_47_51  [-0.  0. -0. ...  0.  1.  0.]
+22-03-19 17_47_51  [ 0.  0. -0. ...  0.  0.  1.]]
+22-03-19 17_47_51 Run 7. Correlation matrix:
+22-03-19 17_47_51 [[ 1. -0. -0. ...  0. -0. -0.]
+22-03-19 17_47_51  [-0.  1.  0. ...  0.  0.  0.]
+22-03-19 17_47_51  [-0.  0.  1. ... -0. -0.  0.]
+22-03-19 17_47_51  ...
+22-03-19 17_47_51  [ 0.  0. -0. ...  1.  0.  0.]
+22-03-19 17_47_51  [-0.  0. -0. ...  0.  1.  0.]
+22-03-19 17_47_51  [-0.  0.  0. ...  0.  0.  1.]]
+22-03-19 17_47_51 Run 8. Correlation matrix:
+22-03-19 17_47_51 [[ 1.  0.  0. ... -0. -0. -0.]
+22-03-19 17_47_51  [ 0.  1.  0. ...  0.  0. -0.]
+22-03-19 17_47_51  [ 0.  0.  1. ...  0.  0. -0.]
+22-03-19 17_47_51  ...
+22-03-19 17_47_51  [-0.  0.  0. ...  1.  0.  0.]
+22-03-19 17_47_51  [-0.  0.  0. ...  0.  1.  0.]
+22-03-19 17_47_51  [-0. -0. -0. ...  0.  0.  1.]]
+22-03-19 17_47_51 Run 9. Correlation matrix:
+22-03-19 17_47_51 [[ 1.  0.  0. ... -0. -0.  0.]
+22-03-19 17_47_51  [ 0.  1.  0. ... -0. -0.  0.]
+22-03-19 17_47_51  [ 0.  0.  1. ...  0. -0. -0.]
+22-03-19 17_47_51  ...
+22-03-19 17_47_51  [-0. -0.  0. ...  1. -0.  0.]
+22-03-19 17_47_51  [-0. -0. -0. ... -0.  1. -0.]
+22-03-19 17_47_51  [ 0.  0. -0. ...  0. -0.  1.]]
+22-03-19 17_47_51 Main: computing global masker.
+22-03-19 17_47_51 Main: global masker retrieved from cache.
+22-03-19 17_47_51 Main: computing for subject sub-07_fm180074 search space : -5 10
+22-03-19 18_56_52 sub-07_fm180074 best alpha 4328.7612810830615
+22-03-19 18_56_52 Main: computing for subject sub-17_sy180140 search space : -5 10
+22-03-19 19_50_56 sub-17_sy180140 best alpha 6135.907273413189
+22-03-19 19_50_56 Main: computing for subject sub-13_mp150285 search space : -5 10
+22-03-19 20_44_53 sub-13_mp150285 best alpha 6135.907273413189
+22-03-19 20_44_53 Main: computing for subject sub-02_ag170045 search space : -5 10
+22-03-19 21_38_52 sub-02_ag170045 best alpha 6135.907273413189
+22-03-19 21_38_52 Main: computing for subject sub-18_cr170417 search space : -5 10
+22-03-19 22_33_01 sub-18_cr170417 best alpha 6135.907273413189
+22-03-19 22_33_01 Main: computing for subject sub-14_mt170249 search space : -5 10
+22-03-19 23_26_55 sub-14_mt170249 best alpha 6135.907273413189
+22-03-19 23_26_55 Main: computing for subject sub-05_cj160239 search space : -5 10
+23-03-19 00_20_56 sub-05_cj160239 best alpha 6135.907273413189
+23-03-19 00_20_56 Main: computing for subject sub-04_cb180224 search space : -5 10
+23-03-19 01_15_03 sub-04_cb180224 best alpha 6135.907273413189
+23-03-19 01_15_03 Main: computing for subject sub-12_ml140071 search space : -5 10
+23-03-19 02_09_08 sub-12_ml140071 best alpha 6135.907273413189
+23-03-19 02_09_08 Main: computing for subject sub-08_ga130053 search space : -5 10
+23-03-19 03_03_11 sub-08_ga130053 best alpha 6135.907273413189
+23-03-19 03_03_11 Main: computing for subject sub-15_pn170438 search space : -5 10
+23-03-19 03_57_16 sub-15_pn170438 best alpha 6135.907273413189
+23-03-19 03_57_16 Main: computing for subject sub-03_bp160018 search space : -5 10
+23-03-19 04_51_15 sub-03_bp160018 best alpha 6135.907273413189
+23-03-19 04_51_15 Main: computing for subject sub-16_ps180177 search space : -5 10
+23-03-19 05_45_19 sub-16_ps180177 best alpha 4328.7612810830615
+23-03-19 05_45_19 Main: computing for subject sub-19_cp140161 search space : -5 10
+23-03-19 06_39_32 sub-19_cp140161 best alpha 3053.8555088334124
+23-03-19 06_39_32 Main: computing for subject sub-11_ma180162 search space : -5 10
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 07_33_36   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 07_33_36 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 07_33_36 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 07_33_36   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 07_33_36 sub-11_ma180162 best alpha 6135.907273413189
+23-03-19 07_33_36 Main: computing for subject sub-09_gq180042 search space : -5 10
+23-03-19 08_27_45 sub-09_gq180042 best alpha 6135.907273413189
+23-03-19 08_27_45 Main: computing for subject sub-20_cs150204 search space : -5 10
+23-03-19 09_21_49 sub-20_cs150204 best alpha 4328.7612810830615
+23-03-19 09_21_49 Main: computing for subject sub-10_jm100109 search space : -5 10
+23-03-19 10_15_49 sub-10_jm100109 best alpha 6135.907273413189
+23-03-19 10_15_49 Main: computing for subject sub-06_dg160099 search space : -5 10
+23-03-19 11_09_52 sub-06_dg160099 best alpha 6135.907273413189
+23-03-19 11_09_52 Main: computing for subject sub-01_aa170308 search space : -5 10
+23-03-19 12_04_05 sub-01_aa170308 best alpha 6135.907273413189
+23-03-19 12_04_05 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 12_04_05   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 12_04_05 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 12_04_05 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 12_04_05   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 12_04_05 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 12_04_05   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 12_04_05 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 12_04_05 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 12_04_05   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 12_04_05 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 12_04_05   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 12_04_05 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 12_04_05 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 12_04_05   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 12_04_05 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 12_04_05   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 12_04_05 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 12_04_05 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 12_04_05   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 12_04_05 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 12_04_05   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 12_04_05 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 12_04_05 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 12_04_05   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 12_04_05 sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='run_newmask.log' mode='a+' encoding='UTF-8'>
+23-03-19 12_04_05 Running SIM for all subjects
+23-03-19 12_04_05 ROOT_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/
+23-03-19 12_04_05 LINGUA=fr
+23-03-19 12_04_05 MODEL_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-sim103/
+23-03-19 12_04_05 REGS=rms wrate cwrate sim_dim634_voc56665_d1 sim_dim634_voc56665_d2 sim_dim634_voc56665_d3 sim_dim634_voc56665_d4 sim_dim634_voc56665_d5 sim_dim634_voc56665_d6 sim_dim634_voc56665_d7 sim_dim634_voc56665_d8 sim_dim634_voc56665_d9 sim_dim634_voc56665_d10 sim_dim634_voc56665_d11 sim_dim634_voc56665_d12 sim_dim634_voc56665_d13 sim_dim634_voc56665_d14 sim_dim634_voc56665_d15 sim_dim634_voc56665_d16 sim_dim634_voc56665_d17 sim_dim634_voc56665_d18 sim_dim634_voc56665_d19 sim_dim634_voc56665_d20 sim_dim634_voc56665_d21 sim_dim634_voc56665_d22 sim_dim634_voc56665_d23 sim_dim634_voc56665_d24 sim_dim634_voc56665_d25 sim_dim634_voc56665_d26 sim_dim634_voc56665_d27 sim_dim634_voc56665_d28 sim_dim634_voc56665_d29 sim_dim634_voc56665_d30 sim_dim634_voc56665_d31 sim_dim634_voc56665_d32 sim_dim634_voc56665_d33 sim_dim634_voc56665_d34 sim_dim634_voc56665_d35 sim_dim634_voc56665_d36 sim_dim634_voc56665_d37 sim_dim634_voc56665_d38 sim_dim634_voc56665_d39 sim_dim634_voc56665_d40 sim_dim634_voc56665_d41 sim_dim634_voc56665_d42 sim_dim634_voc56665_d43 sim_dim634_voc56665_d44 sim_dim634_voc56665_d45 sim_dim634_voc56665_d46 sim_dim634_voc56665_d47 sim_dim634_voc56665_d48 sim_dim634_voc56665_d49 sim_dim634_voc56665_d50 sim_dim634_voc56665_d51 sim_dim634_voc56665_d52 sim_dim634_voc56665_d53 sim_dim634_voc56665_d54 sim_dim634_voc56665_d55 sim_dim634_voc56665_d56 sim_dim634_voc56665_d57 sim_dim634_voc56665_d58 sim_dim634_voc56665_d59 sim_dim634_voc56665_d60 sim_dim634_voc56665_d61 sim_dim634_voc56665_d62 sim_dim634_voc56665_d63 sim_dim634_voc56665_d64 sim_dim634_voc56665_d65 sim_dim634_voc56665_d66 sim_dim634_voc56665_d67 sim_dim634_voc56665_d68 sim_dim634_voc56665_d69 sim_dim634_voc56665_d70 sim_dim634_voc56665_d71 sim_dim634_voc56665_d72 sim_dim634_voc56665_d73 sim_dim634_voc56665_d74 sim_dim634_voc56665_d75 sim_dim634_voc56665_d76 sim_dim634_voc56665_d77 sim_dim634_voc56665_d78 sim_dim634_voc56665_d79 sim_dim634_voc56665_d80 sim_dim634_voc56665_d81 sim_dim634_voc56665_d82 sim_dim634_voc56665_d83 sim_dim634_voc56665_d84 sim_dim634_voc56665_d85 sim_dim634_voc56665_d87 sim_dim634_voc56665_d88 sim_dim634_voc56665_d89 sim_dim634_voc56665_d90 sim_dim634_voc56665_d91 sim_dim634_voc56665_d92 sim_dim634_voc56665_d93 sim_dim634_voc56665_d94 sim_dim634_voc56665_d96 sim_dim634_voc56665_d97 sim_dim634_voc56665_d99 sim_dim634_voc56665_d100 sim_dim634_voc56665_d103 sim_dim634_voc56665_d117 sim_dim634_voc56665_d131
+23-03-19 12_04_05 SUBJECTS_FMRI_DATA=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data
+23-03-19 12_04_05 model set to "rms-wrate-cwrate-sim103"
+23-03-19 12_04_05 mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate-sim103; \
+23-03-19 12_04_05 python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-sim103//r2maps_Ridge_nestedcrossval.py \
+23-03-19 12_04_05 	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+23-03-19 12_04_05 	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate-sim103 \
+23-03-19 12_04_05 	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate-sim103
+23-03-19 12_49_03 Main: computing global masker.
+23-03-19 12_49_03 Main: global masker retrieved from cache.
+23-03-19 12_49_03 Main: computing for subject sub-07_fm180074
+23-03-19 12_49_03 sub-07_fm180074 best alpha 1000.0
+23-03-19 13_33_37 Main: computing for subject sub-17_sy180140
+23-03-19 13_33_37 sub-17_sy180140 best alpha 1000.0
+23-03-19 14_18_15 Main: computing for subject sub-13_mp150285
+23-03-19 14_18_15 sub-13_mp150285 best alpha 1000.0
+23-03-19 15_02_48 Main: computing for subject sub-02_ag170045
+23-03-19 15_02_48 sub-02_ag170045 best alpha 1000.0
+23-03-19 15_47_24 Main: computing for subject sub-18_cr170417
+23-03-19 15_47_24 sub-18_cr170417 best alpha 1000.0
+23-03-19 16_32_03 Main: computing for subject sub-14_mt170249
+23-03-19 16_32_03 sub-14_mt170249 best alpha 1000.0
+23-03-19 17_16_41 Main: computing for subject sub-05_cj160239
+23-03-19 17_16_42 sub-05_cj160239 best alpha 1000.0
+23-03-19 18_01_19 Main: computing for subject sub-04_cb180224
+23-03-19 18_01_19 sub-04_cb180224 best alpha 1000.0
+23-03-19 18_46_02 Main: computing for subject sub-12_ml140071
+23-03-19 18_46_02 sub-12_ml140071 best alpha 1000.0
+23-03-19 19_30_50 Main: computing for subject sub-08_ga130053
+23-03-19 19_30_50 sub-08_ga130053 best alpha 1000.0
+23-03-19 20_15_27 Main: computing for subject sub-15_pn170438
+23-03-19 20_15_27 sub-15_pn170438 best alpha 1000.0
+23-03-19 21_00_06 Main: computing for subject sub-03_bp160018
+23-03-19 21_00_06 sub-03_bp160018 best alpha 1000.0
+23-03-19 21_44_44 Main: computing for subject sub-16_ps180177
+23-03-19 21_44_44 sub-16_ps180177 best alpha 1000.0
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+23-03-19 22_29_30   return f(*args, **kwds)
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+23-03-19 22_29_30   return f(*args, **kwds)
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+23-03-19 22_29_30   std = np.sqrt((signals ** 2).sum(axis=0))
+23-03-19 22_29_30 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+23-03-19 22_29_30 Use os.path.join(memory.location, 'joblib') attribute instead.
+23-03-19 22_29_30   if self.memory_level == 0 and self.memory.cachedir is not None:
+23-03-19 22_29_30 Main: computing for subject sub-19_cp140161
+23-03-19 22_29_30 sub-19_cp140161 best alpha 1000.0
+23-03-19 23_14_18 Main: computing for subject sub-11_ma180162
+23-03-19 23_14_18 sub-11_ma180162 best alpha 1000.0
+23-03-19 23_58_57 Main: computing for subject sub-09_gq180042
+23-03-19 23_58_57 sub-09_gq180042 best alpha 1000.0
+24-03-19 00_43_46 Main: computing for subject sub-20_cs150204
+24-03-19 00_43_46 sub-20_cs150204 best alpha 1000.0
+24-03-19 01_28_26 Main: computing for subject sub-10_jm100109
+24-03-19 01_28_26 sub-10_jm100109 best alpha 1000.0
+24-03-19 02_13_03 Main: computing for subject sub-06_dg160099
+24-03-19 02_13_03 sub-06_dg160099 best alpha 1000.0
+24-03-19 02_57_41 Main: computing for subject sub-01_aa170308
+24-03-19 02_57_41 sub-01_aa170308 best alpha 1000.0
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+24-03-19 02_57_41   std = np.sqrt((signals ** 2).sum(axis=0))
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+24-03-19 02_57_41 Use os.path.join(memory.location, 'joblib') attribute instead.
+24-03-19 02_57_41   if self.memory_level == 0 and self.memory.cachedir is not None:
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+24-03-19 02_57_41   std = np.sqrt((signals ** 2).sum(axis=0))
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+24-03-19 02_57_41 Use os.path.join(memory.location, 'joblib') attribute instead.
+24-03-19 02_57_41   if self.memory_level == 0 and self.memory.cachedir is not None:
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+24-03-19 02_57_41   std = np.sqrt((signals ** 2).sum(axis=0))
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+24-03-19 02_57_41 Use os.path.join(memory.location, 'joblib') attribute instead.
+24-03-19 02_57_41   if self.memory_level == 0 and self.memory.cachedir is not None:
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+24-03-19 02_57_41   std = np.sqrt((signals ** 2).sum(axis=0))
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+24-03-19 02_57_41 Use os.path.join(memory.location, 'joblib') attribute instead.
+24-03-19 02_57_41   if self.memory_level == 0 and self.memory.cachedir is not None:
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+24-03-19 02_57_41   std = np.sqrt((signals ** 2).sum(axis=0))
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+24-03-19 02_57_41 Use os.path.join(memory.location, 'joblib') attribute instead.
+24-03-19 02_57_41   if self.memory_level == 0 and self.memory.cachedir is not None:
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+24-03-19 02_57_41   std = np.sqrt((signals ** 2).sum(axis=0))
+24-03-19 02_57_41 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+24-03-19 02_57_41 Use os.path.join(memory.location, 'joblib') attribute instead.
+24-03-19 02_57_41   if self.memory_level == 0 and self.memory.cachedir is not None:
+24-03-19 02_57_41 sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='outputs/results-indiv-ridge/fr/rms-wrate-cwrate-sim103/run_newmask.log' mode='a+' encoding='UTF-8'>

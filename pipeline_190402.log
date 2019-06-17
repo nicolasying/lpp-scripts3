@@ -1,0 +1,24 @@
+02-04-19 10_45_36 Begin training ASN model.
+02-04-19 10_45_36 Begin training 0/20: sub-07_fm180074
+02-04-19 10_45_57 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+02-04-19 10_45_57 Use os.path.join(memory.location, 'joblib') attribute instead.
+02-04-19 10_45_57   if self.memory_level == 0 and self.memory.cachedir is not None:
+02-04-19 10_45_57 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+02-04-19 10_45_57   std = np.sqrt((signals ** 2).sum(axis=0))
+02-04-19 10_45_57 Traceback (most recent call last):
+02-04-19 10_45_57   File "./models/Micipsa Pipeline.py", line 203, in <module>
+02-04-19 10_45_57     r2train, r2test = dim_alpha_search(fmri_runs, dtx_mat, alpha_space, dimension_space, subject, dump_file)
+02-04-19 10_45_57 NameError: name 'dtx_mat' is not defined
+02-04-19 10_50_37 Begin training ASN model.
+02-04-19 10_50_39 Begin training 0/20: sub-07_fm180074
+02-04-19 15_04_58 Begin training 1/20: sub-17_sy180140
+02-04-19 19_27_31 Begin training 2/20: sub-13_mp150285
+02-04-19 23_30_00 Begin training 3/20: sub-02_ag170045
+03-04-19 03_32_38 Begin training 4/20: sub-18_cr170417
+03-04-19 07_34_39 Begin training 5/20: sub-14_mt170249
+03-04-19 11_39_07 Begin training 6/20: sub-05_cj160239
+03-04-19 15_46_09 Begin training 7/20: sub-04_cb180224
+03-04-19 19_55_06 Begin training 8/20: sub-12_ml140071
+03-04-19 23_58_15 Begin training 9/20: sub-08_ga130053
+04-04-19 04_00_57 Begin training 10/20: sub-15_pn170438
+04-04-19 08_04_10 Begin training 11/20: sub-03_bp160018

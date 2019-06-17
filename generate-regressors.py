@@ -10,6 +10,8 @@ from events2reg import process_onefile
 from joblib import Parallel, delayed
 
 import argparse
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
 parser = argparse.ArgumentParser(description="Generate fMRI regressors from [1-9]_REG.csv onsets files)")
 parser.add_argument("--output-dir", type=str, default='.')
@@ -25,14 +27,13 @@ parser.add_argument('--nscans', nargs='+', action="append", default=[])
 parser.add_argument('--blocks', nargs='+', action="append", default=[])
 parser.add_argument('--lingua', type=str)
 
-assert len(args.nscans) == len(args.blocks), 'number of scans is not equal to number of blocks'
-
 args = parser.parse_args()
+assert len(args.nscans) == len(args.blocks), 'number of scans is not equal to number of blocks'
 regressors = args.regressors[0]
 
-if args.lingua == 'en' and not args.nscans:
+if args.lingua == 'en' and (not args.nscans or len(args.nscans) == 0):
     nscans = [282, 298, 340, 303, 265, 343, 325, 292, 368]  # numbers of scans in each session
-elif args.lingua == 'fr' and not args.nscans:
+elif args.lingua == 'fr' and (not args.nscans or len(args.nscans) == 0):
     nscans = [309, 326, 354, 315, 293, 378, 332, 294, 336]  # numbers of scans in each session
 
 parameters = [('%d_%s.csv' % (1 + session, reg), ns)
@@ -40,4 +41,7 @@ parameters = [('%d_%s.csv' % (1 + session, reg), ns)
 
 Parallel(n_jobs=-2)(delayed(process_onefile) \
                     (op.join(args.input_dir, filen), 2.0, ns, args.overwrite, args.output_dir) for (filen, ns) in parameters)
+
+
+
 

@@ -1,0 +1,28 @@
+# This must be sourced from the python-script directory,
+# with the relative path of the model as argument
+# 
+# Time-stamp: <2018-08-10 09:46:15 cp983411>
+
+export ROOT_DIR=/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/
+echo "ROOT_DIR=$ROOT_DIR"
+
+export LINGUA=fr
+echo "LINGUA=$LINGUA"
+
+export MODEL="$(basename $1)"
+export MODEL_DIR="$PWD/$1"
+echo "MODEL_DIR=$MODEL_DIR"
+
+DIM=200
+EMBEDDING=asn_dim200_voc24519_d
+export REGS="rms wrate cwrate"
+for i in $(seq 1 $DIM); do REGS=$REGS" "$EMBEDDING$i; done;
+echo "REGS=$REGS"
+
+export SEQUENTIAL=TRUE
+unset SEQUENTIAL  # comment to run in subjects in parallel (fast but memory intensive)
+
+export SUBJECTS_FMRI_DATA="/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data"
+echo "SUBJECTS_FMRI_DATA=$SUBJECTS_FMRI_DATA"
+
+

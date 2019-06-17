@@ -1,0 +1,21 @@
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate-asn200; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate-asn200 \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate-asn200
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200//r2maps_Ridge_nestedcrossval.py", line 96, in <module>
+    opts, args = getopt.getopt(sys.argv[1:],
+NameError: name 'getopt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate-asn200//r2maps_Ridge_nestedcrossval.py", line 101, in <module>
+    except getopt.GetoptError as err:
+NameError: name 'getopt' is not defined
+make: *** [Makefile:52: first-level-ridge] Error 1

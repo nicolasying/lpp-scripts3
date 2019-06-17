@@ -1,6 +1,0 @@
-export ROOT_DIR=/neurospin/unicog/protocols/IRMf/LePetitPrince_Pallier_2018/MRI/
-
-export PATH="$PWD:$PATH"
-export PYTHONPATH="$PWD:$PYTHONPATH"
-
-

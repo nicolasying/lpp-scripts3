@@ -1,0 +1,28 @@
+04-04-19 15_51_09 Begin training SIM model.
+04-04-19 15_51_10 Begin training 0/20: sub-12_ml140071
+04-04-19 20_15_00 Begin training 1/20: sub-08_ga130053
+05-04-19 00_43_49 Begin training 2/20: sub-15_pn170438
+05-04-19 05_17_56 Begin training 3/20: sub-03_bp160018
+05-04-19 09_52_50 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+05-04-19 09_52_50 Use os.path.join(memory.location, 'joblib') attribute instead.
+05-04-19 09_52_50   if self.memory_level == 0 and self.memory.cachedir is not None:
+05-04-19 09_52_50 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+05-04-19 09_52_50   std = np.sqrt((signals ** 2).sum(axis=0))
+05-04-19 09_52_50 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+05-04-19 09_52_50 Use os.path.join(memory.location, 'joblib') attribute instead.
+05-04-19 09_52_50   if self.memory_level == 0 and self.memory.cachedir is not None:
+05-04-19 09_52_50 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+05-04-19 09_52_50   std = np.sqrt((signals ** 2).sum(axis=0))
+05-04-19 09_52_50 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+05-04-19 09_52_50 Use os.path.join(memory.location, 'joblib') attribute instead.
+05-04-19 09_52_50   if self.memory_level == 0 and self.memory.cachedir is not None:
+05-04-19 09_52_50 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+05-04-19 09_52_50   std = np.sqrt((signals ** 2).sum(axis=0))
+05-04-19 09_52_50 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+05-04-19 09_52_50 Use os.path.join(memory.location, 'joblib') attribute instead.
+05-04-19 09_52_50   if self.memory_level == 0 and self.memory.cachedir is not None:
+05-04-19 09_52_50 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+05-04-19 09_52_50   std = np.sqrt((signals ** 2).sum(axis=0))
+05-04-19 09_52_50 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+05-04-19 09_52_50 Use os.path.join(memory.location, 'joblib') attribute instead.
+05-04-19 09_52_50   if self.memory_level == 0 and self.memory.cachedir is not None:

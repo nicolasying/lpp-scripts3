@@ -1,0 +1,7 @@
+{
+    "files.watcherExclude": {
+        "**/inputs/**": true,
+        "**/output/**": true
+    },
+    "python.pythonPath": "/home/sying/root/anaconda3/envs/micipsa/bin/python"
+}

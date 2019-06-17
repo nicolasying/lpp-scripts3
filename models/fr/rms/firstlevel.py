@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+
 # Time-stamp: <2018-04-08 10:16:53 cp983411>
 
 import sys
@@ -8,7 +8,7 @@ import os.path as op
 import glob
 
 import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
+#warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
 import pandas as pd
@@ -52,7 +52,7 @@ def process_subject(inputpath, subjid, dtx_mat, outputpath):
             # memory='/mnt/ephemeral/cache',
             memory=None,
             verbose=2,
-            n_jobs=1)
+            n_jobs=-1)
     
         # creating and estimating the model
         fmri_glm = fmri_glm.fit(imgs, design_matrices=dtx_mat)
@@ -122,9 +122,11 @@ if __name__ == '__main__':
         d['constant'] = np.ones(len(d))
 
     subjlist = [op.basename(f) for f in glob.glob(op.join(subj_dir, 'sub*'))]
+    # print(subjlist)
+    # subjlist = ['disable_sub-07_fm180074']
 
     if os.getenv('SEQUENTIAL') is not None:
         for s in subjlist:
             process_subject(subj_dir, s, dtx_mat, output_dir)
     else:
-        Parallel(n_jobs=-2)(delayed(process_subject)(subj_dir, s, dtx_mat, output_dir) for s in subjlist)
+        Parallel(n_jobs=1)(delayed(process_subject)(subj_dir, s, dtx_mat, output_dir) for s in subjlist)

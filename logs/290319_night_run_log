@@ -1,0 +1,71 @@
+29-03-19 18_25_02 Begin training BASE model.
+29-03-19 18_25_02 Begin training sub-07_fm180074
+29-03-19 18_48_22 Begin training sub-17_sy180140
+29-03-19 19_06_58 Begin training sub-13_mp150285
+29-03-19 19_25_30 Begin training sub-02_ag170045
+29-03-19 19_44_01 Begin training sub-18_cr170417
+29-03-19 20_02_35 Begin training sub-14_mt170249
+29-03-19 20_21_06 Begin training sub-05_cj160239
+29-03-19 20_39_39 Begin training sub-04_cb180224
+29-03-19 20_58_10 Begin training sub-12_ml140071
+29-03-19 21_16_43 Begin training sub-08_ga130053
+29-03-19 21_35_18 Begin training sub-15_pn170438
+29-03-19 21_53_45 Begin training sub-03_bp160018
+29-03-19 22_12_14 Begin training sub-16_ps180177
+29-03-19 22_30_49 Begin training sub-19_cp140161
+29-03-19 22_49_13 Begin training sub-11_ma180162
+29-03-19 23_07_42 Begin training sub-09_gq180042
+29-03-19 23_26_15 Begin training sub-20_cs150204
+29-03-19 23_44_51 Begin training sub-10_jm100109
+30-03-19 00_03_21 Begin training sub-06_dg160099
+30-03-19 00_21_55 Begin training sub-01_aa170308
+30-03-19 00_40_28 Begin training SIM model.
+30-03-19 00_40_28 Begin training sub-07_fm180074
+30-03-19 02_48_34 Begin training sub-17_sy180140
+30-03-19 04_56_07 Begin training sub-13_mp150285
+30-03-19 07_03_47 Begin training sub-02_ag170045
+30-03-19 09_11_31 Begin training sub-18_cr170417
+30-03-19 11_19_14 Begin training sub-14_mt170249
+30-03-19 13_26_55 Begin training sub-05_cj160239
+30-03-19 15_34_33 Begin training sub-04_cb180224
+30-03-19 17_42_07 Begin training sub-12_ml140071
+30-03-19 19_49_54 Begin training sub-08_ga130053
+30-03-19 21_57_25 Begin training sub-15_pn170438
+31-03-19 00_04_59 Begin training sub-03_bp160018
+31-03-19 03_12_36 Begin training sub-16_ps180177
+31-03-19 05_20_33 Begin training sub-19_cp140161
+31-03-19 07_28_21 Begin training sub-11_ma180162
+31-03-19 09_36_03 Begin training sub-09_gq180042
+31-03-19 11_43_52 Begin training sub-20_cs150204
+31-03-19 13_51_30 Begin training sub-10_jm100109
+31-03-19 15_59_14 Begin training sub-06_dg160099
+31-03-19 18_06_55 Begin training sub-01_aa170308
+31-03-19 20_14_57 Begin training ASN model.
+31-03-19 20_14_57 Begin training sub-07_fm180074
+31-03-19 23_23_15 Begin training sub-17_sy180140
+01-04-19 02_31_23 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+01-04-19 02_31_23 Use os.path.join(memory.location, 'joblib') attribute instead.
+01-04-19 02_31_23   if self.memory_level == 0 and self.memory.cachedir is not None:
+01-04-19 02_31_23 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+01-04-19 02_31_23   std = np.sqrt((signals ** 2).sum(axis=0))
+01-04-19 02_31_23 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+01-04-19 02_31_23 Use os.path.join(memory.location, 'joblib') attribute instead.
+01-04-19 02_31_23   if self.memory_level == 0 and self.memory.cachedir is not None:
+01-04-19 02_31_23 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+01-04-19 02_31_23   std = np.sqrt((signals ** 2).sum(axis=0))
+01-04-19 02_31_23 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+01-04-19 02_31_23 Use os.path.join(memory.location, 'joblib') attribute instead.
+01-04-19 02_31_23   if self.memory_level == 0 and self.memory.cachedir is not None:
+01-04-19 02_31_23 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+01-04-19 02_31_23   std = np.sqrt((signals ** 2).sum(axis=0))
+01-04-19 02_31_23 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+01-04-19 02_31_23 Use os.path.join(memory.location, 'joblib') attribute instead.
+01-04-19 02_31_23   if self.memory_level == 0 and self.memory.cachedir is not None:
+01-04-19 02_31_23 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+01-04-19 02_31_23   std = np.sqrt((signals ** 2).sum(axis=0))
+01-04-19 02_31_23 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+01-04-19 02_31_23 Use os.path.join(memory.location, 'joblib') attribute instead.
+01-04-19 02_31_23   if self.memory_level == 0 and self.memory.cachedir is not None:
+01-04-19 02_31_23 /home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+01-04-19 02_31_23   std = np.sqrt((signals ** 2).sum(axis=0))
+01-04-19 02_31_23 /home/sying/root/anaconda3/

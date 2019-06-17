@@ -1,0 +1,199 @@
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Main: global masker retrieved from cache.
+Main: computing for subject sub-07_fm180074 search space : 3 10
+Main: using existing results sub-07_fm180074
+Main: computing for subject sub-17_sy180140 search space : 3 10
+Main: using existing results sub-17_sy180140
+Main: computing for subject sub-13_mp150285 search space : 3 10
+Main: using existing results sub-13_mp150285
+Main: computing for subject sub-02_ag170045 search space : 3 10
+Main: using existing results sub-02_ag170045
+Main: computing for subject sub-18_cr170417 search space : 3 10
+Main: using existing results sub-18_cr170417
+Main: computing for subject sub-14_mt170249 search space : 3 10
+Main: using existing results sub-14_mt170249
+Main: computing for subject sub-05_cj160239 search space : 3 10
+Main: using existing results sub-05_cj160239
+Main: computing for subject sub-04_cb180224 search space : 3 10
+Main: using existing results sub-04_cb180224
+Main: computing for subject sub-12_ml140071 search space : 3 10
+Main: using existing results sub-12_ml140071
+Main: computing for subject sub-08_ga130053 search space : 3 10
+Main: using existing results sub-08_ga130053
+Main: computing for subject sub-15_pn170438 search space : 3 10
+Main: using existing results sub-15_pn170438
+Main: computing for subject sub-03_bp160018 search space : 3 10
+Main: using existing results sub-03_bp160018
+Main: computing for subject sub-16_ps180177 search space : 3 10
+Main: using existing results sub-16_ps180177
+Main: computing for subject sub-19_cp140161 search space : 3 10
+Main: using existing results sub-19_cp140161
+Main: computing for subject sub-11_ma180162 search space : 3 10
+Main: using existing results sub-11_ma180162
+Main: computing for subject sub-09_gq180042 search space : 3 10
+Main: using existing results sub-09_gq180042
+Main: computing for subject sub-20_cs150204 search space : 3 10
+Main: using existing results sub-20_cs150204
+Main: computing for subject sub-10_jm100109 search space : 3 10
+Main: using existing results sub-10_jm100109
+Main: computing for subject sub-06_dg160099 search space : 3 10
+Main: using existing results sub-06_dg160099
+Main: computing for subject sub-01_aa170308 search space : 3 10
+Main: using existing results sub-01_aa170308
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='outputs/results-indiv-ridge/fr/rms-wrate-cwrate/run_newmask.log' mode='a+' encoding='UTF-8'>
+mkdir -p outputs/results-indiv-ridge/fr/rms-wrate-cwrate; \
+python /home/sying/Documents/LePetitPrince_Pallier2018/lpp-scripts3/./models/fr/rms-wrate-cwrate//r2maps_Ridge_nestedcrossval.py \
+	--subject_fmri_data=/home/sying/Documents/LePetitPrince_Pallier2018/french-mri-data \
+	--design_matrices=outputs/design-matrices/fr/rms-wrate-cwrate \
+	--output_dir=outputs/results-indiv-ridge/fr/rms-wrate-cwrate
+Main: computing global masker.
+Main: global masker retrieved from cache.
+Main: computing for subject sub-07_fm180074 search space : 3 10
+sub-07_fm180074 best alpha 0.0
+Main: computing for subject sub-17_sy180140 search space : 3 10
+sub-17_sy180140 best alpha 0.0
+Main: computing for subject sub-13_mp150285 search space : 3 10
+sub-13_mp150285 best alpha 0.0
+Main: computing for subject sub-02_ag170045 search space : 3 10
+sub-02_ag170045 best alpha 0.0
+Main: computing for subject sub-18_cr170417 search space : 3 10
+sub-18_cr170417 best alpha 0.0
+Main: computing for subject sub-14_mt170249 search space : 3 10
+sub-14_mt170249 best alpha 0.0
+Main: computing for subject sub-05_cj160239 search space : 3 10
+sub-05_cj160239 best alpha 0.0
+Main: computing for subject sub-04_cb180224 search space : 3 10
+sub-04_cb180224 best alpha 0.0
+Main: computing for subject sub-12_ml140071 search space : 3 10
+sub-12_ml140071 best alpha 0.0
+Main: computing for subject sub-08_ga130053 search space : 3 10
+sub-08_ga130053 best alpha 0.0
+Main: computing for subject sub-15_pn170438 search space : 3 10
+sub-15_pn170438 best alpha 0.0
+Main: computing for subject sub-03_bp160018 search space : 3 10
+sub-03_bp160018 best alpha 0.0
+Main: computing for subject sub-16_ps180177 search space : 3 10
+sub-16_ps180177 best alpha 0.0
+Main: computing for subject sub-19_cp140161 search space : 3 10
+sub-19_cp140161 best alpha 0.0
+Main: computing for subject sub-11_ma180162 search space : 3 10
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+sub-11_ma180162 best alpha 0.0
+Main: computing for subject sub-09_gq180042 search space : 3 10
+sub-09_gq180042 best alpha 0.0
+Main: computing for subject sub-20_cs150204 search space : 3 10
+sub-20_cs150204 best alpha 0.0
+Main: computing for subject sub-10_jm100109 search space : 3 10
+sub-10_jm100109 best alpha 0.0
+Main: computing for subject sub-06_dg160099 search space : 3 10
+sub-06_dg160099 best alpha 0.0
+Main: computing for subject sub-01_aa170308 search space : 3 10
+sub-01_aa170308 best alpha 0.0
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/signal.py:59: RuntimeWarning: invalid value encountered in sqrt
+  std = np.sqrt((signals ** 2).sum(axis=0))
+/home/sying/root/anaconda3/envs/micipsa/lib/python3.6/site-packages/nilearn/_utils/cache_mixin.py:301: DeprecationWarning: The 'cachedir' attribute has been deprecated in version 0.12 and will be removed in version 0.14.
+Use os.path.join(memory.location, 'joblib') attribute instead.
+  if self.memory_level == 0 and self.memory.cachedir is not None:
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='outputs/results-indiv-ridge/fr/rms-wrate-cwrate/run_newmask.log' mode='a+' encoding='UTF-8'>
